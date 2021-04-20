@@ -79,6 +79,8 @@ ul {
 a {
   text-decoration: none;
 }
+
+
 h1,
 h2,
 h3,
@@ -187,4 +189,16 @@ main {
 .btn:hover {
   color: var(--clr-white);
   background: var(--clr-black);
+}
+.github{
+  text-align: left;
+  color:hsl(125, 67%, 44%)
+  font-family: var(--ff-secondary);
+  line-height: 3.5;
+  font-size: 1.175rem;
+}
+
+.github:hover {
+  color: var(--clr-white);
+  background: var(--clr-grey-1);
 }
